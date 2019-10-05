@@ -1,11 +1,11 @@
 {
   "name": "blockd-ethereum",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Ethereum Helper for Transactions and Keystore Wallets for Blockd.co",
-  "main": "index.js",
+  "main": "lib/index.js",
   "homepage": "https://github.com/netr/blockd-ethereum",
   "scripts": {
-    "build": "babel src -d dist --source-maps",
+    "build": "babel src -d lib",
     "test": "jest --runInBand --verbose",
     "coverage": "jest --coverage --runInBand --verbose",
     "eslint": "eslint *.js --ignore-pattern \"node_modules/\"",

@@ -4,7 +4,7 @@ import {
   createKeystoreWallet,
   signTransaction,
   unlockKeystoreWallet
-} from "../PrivateKeyWallets";
+} from "../src/PrivateKeyWallets";
 import {
   newTransaction,
   sanitizeKey,
@@ -13,7 +13,7 @@ import {
   calculateGasCost,
   toBN,
   fromEther
-} from "../Transactions";
+} from "../src/Transactions";
 import { BigNumber } from "bignumber.js";
 
 describe("Transactions", () => {

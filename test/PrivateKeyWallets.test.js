@@ -1,6 +1,6 @@
 // @flow
-import {unlockKeystoreWallet, createKeystoreWallet, signTransaction} from "../PrivateKeyWallets";
-import {newTransaction} from "../Transactions";
+import {unlockKeystoreWallet, createKeystoreWallet, signTransaction} from "../src/PrivateKeyWallets";
+import {newTransaction} from "../src/Transactions";
 
 let wallet = {};
 
